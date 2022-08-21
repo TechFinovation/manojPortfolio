@@ -2,7 +2,7 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
@@ -23,10 +23,8 @@ const greeting = {
   logo_name: "Manoj Walia",
   nickname: "Co-founder of TechFinovation",
   subTitle:
-  
-  "千里の道を一歩から A passionate Japanese bilingual technical expert who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
-  resumeLink:
-    "https://github.com/javadeveloper176097",
+    "千里の道を一歩から A passionate Japanese bilingual technical expert who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+  resumeLink: "https://github.com/javadeveloper176097",
   portfolio_repository: "https://github.com/javadeveloper176097",
   githubProfile: "https://github.com/javadeveloper176097",
 };
@@ -98,9 +96,9 @@ const skills = {
       softwareSkills: [
         {
           skillName: "Java",
-           style: {
-           backgroundColor: "transparent",
-         },
+          style: {
+            backgroundColor: "transparent",
+          },
         },
         {
           skillName: "Spring Boot",
@@ -125,7 +123,7 @@ const skills = {
             color: "#3776AB",
           },
         },
-   ]
+      ],
     },
     {
       title: "Full Stack Development",
@@ -138,7 +136,7 @@ const skills = {
       softwareSkills: [
         {
           skillName: "Java",
-          fontAwesomeClassname:"fa-brands fa-java",
+          fontAwesomeClassname: "fa-brands fa-java",
           style: {
             color: "#E34F26",
           },
@@ -389,8 +387,7 @@ const certifications = {
       title: "JLPT",
       subtitle: " JLPT N3",
       logo_path: "logo.gif",
-      certificate_link:
-        "https://www.jlpt.jp/e/",
+      certificate_link: "https://www.jlpt.jp/e/",
       alt_name: "Stanford University",
       color_code: "#8C151599",
     },
@@ -398,17 +395,15 @@ const certifications = {
       title: "JLPT",
       subtitle: " JLPT N4",
       logo_path: "logo.gif",
-      certificate_link:
-        "https://www.jlpt.jp/e/",
+      certificate_link: "https://www.jlpt.jp/e/",
       alt_name: "deeplearning.ai",
       color_code: "#00000099",
     },
     {
-    title: "JLPT",
+      title: "JLPT",
       subtitle: " JLPT N5",
       logo_path: "logo.gif",
-      certificate_link:
-        "https://www.jlpt.jp/e/",
+      certificate_link: "https://www.jlpt.jp/e/",
       alt_name: "deeplearning.ai",
       color_code: "#00000099",
     },
@@ -416,8 +411,7 @@ const certifications = {
       title: "NAT",
       subtitle: " NAT Q3",
       logo_path: "logo1.png",
-      certificate_link:
-        "http://www.nat-test.com/",
+      certificate_link: "http://www.nat-test.com/",
       alt_name: "deeplearning.ai",
       color_code: "#00000099",
     },
@@ -499,9 +493,9 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Volunteership",
+  subtitle: "Best Industry Work",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "I have work experience with big Japanese IT MNC evolved as Bilingual Software Developer . I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -521,7 +515,8 @@ const experience = {
         {
           title: "Bilingual Application Developer",
           company: "Fujitsu Consulting India",
-          company_url: "https://www.fujitsu.com/global/about/corporate/locations/worldlocation/asia/india.html",
+          company_url:
+            "https://www.fujitsu.com/global/about/corporate/locations/worldlocation/asia/india.html",
           logo_path: "fujitsu-logo-0.png",
           duration: "May 2019 - Sept 2021",
           location: "Pune, Maharashtra",
@@ -650,19 +645,19 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-   // link: "/",
+    // link: "/",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
     title: "Address",
-    subtitle:
-      "Kawasaki,Tokyo-Japan, 230-0051",
+    subtitle: "Kawasaki,Tokyo-Japan, 230-0051",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://www.google.com/maps/place/Kawasaki+Ward,+Kawasaki,+Kanagawa/@35.5075317,139.6916036,12z/data=!3m1!4b1!4m5!3m4!1s0x6018668f9df9dad7:0x70994a6f38245910!8m2!3d35.5222897!4d139.730788",
+    location_map_link:
+      "https://www.google.com/maps/place/Kawasaki+Ward,+Kawasaki,+Kanagawa/@35.5075317,139.6916036,12z/data=!3m1!4b1!4m5!3m4!1s0x6018668f9df9dad7:0x70994a6f38245910!8m2!3d35.5222897!4d139.730788",
   },
   phoneSection: {
     title: "Phone Number",
-    subtitle:  "+91 9805172366", 
+    subtitle: "+91 9805172366",
   },
 };
 
