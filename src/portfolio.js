@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "Manoj Walia",
   nickname: "Co-founder of TechFinovation",
   subTitle:
-    "千里の道を一歩から A passionate Japanese bilingual technical expert who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "千里の道も一歩から A passionate Japanese bilingual technical expert who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink: "https://github.com/javadeveloper176097",
   portfolio_repository: "https://github.com/javadeveloper176097",
   githubProfile: "https://github.com/javadeveloper176097",
